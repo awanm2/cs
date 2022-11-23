@@ -25,6 +25,14 @@
 #define SLEEP 10
 #endif
 
+void systemLocal(const char *command)
+{
+	if(system(command) == -1){
+        fprintf(stderr, "Unable to execute the command : %s  error :  %s\n ",command,  strerror(errno));
+        exit(EXIT_FAILURE);
+    }
+
+}
 
 /**
  * @brief Create a File object, but donot close the file descriptor.

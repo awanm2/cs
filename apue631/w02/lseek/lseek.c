@@ -24,15 +24,24 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main(void) {
-    /**
-     * lseek : reposition the file offset of the open file descriptor from offset + current (SEEK_CUR)
-     * 
+void seekFD(int fd, char* msg)
+{
+	/*
+     * lseek : reposition the current file offset of the 
+	 * open file descriptor from offset + current (SEEK_CUR)
      */
-	if (lseek(STDIN_FILENO, 0, SEEK_CUR) == -1 )
-		printf("cannot seek\n");
+	if (lseek(fd, 0, SEEK_CUR) == -1 )
+		printf("fd : %d  %s cannot seek\n",fd, msg);
 	else
-		printf("seek OK\n");
+		printf("fd : %d  %s SEEK OK\n",fd, msg);
+}
+
+int main(void) {
+    
+	seekFD(STDIN_FILENO, "STDERR");
+	seekFD(STDOUT_FILENO, "STDOUT");
+	seekFD(STDERR_FILENO, "STDERR");
+
 
 	return EXIT_SUCCESS;
 }

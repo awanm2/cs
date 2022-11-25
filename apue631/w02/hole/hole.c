@@ -6,10 +6,6 @@
  *
  * This file is in the public domain.
  *
- * You don't have to, but if you feel like
- * acknowledging where you got this code, you may
- * reference me by name, email address, or point
- * people to the course website:
  * https://stevens.netmeister.org/631/
  */
 
@@ -37,26 +33,33 @@ char buf2[] = "ABCDEFGHIJ";
 int
 main(void) {
 	int fd;
-
+     
+	 /*Create a file */
 	if ((fd = creat("file.hole", S_IRUSR | S_IWUSR)) < 0) {
 		perror("creat error");
 		return EXIT_FAILURE;
 	}
 
+    /*write buf1 the ten bytes*/
 	if (write(fd, buf1, strlen(buf1)) != sizeof(buf1) - 1) {
 		perror("error writing buf1");
 		return EXIT_FAILURE;
 	}
 
+    /*Now lseek beyond end of file*/
 	if (lseek(fd, BIGNUM, SEEK_CUR) == -1) {
 		perror("lseek error");
 		return EXIT_FAILURE;
 	}
-
+    /* Now write the second buffer of ten bytes to the seeked
+	 * position. 
+	 */
 	if (write(fd, buf2, strlen(buf2)) != sizeof(buf2) - 1) {
 		perror("error writing buf2");
 		return EXIT_FAILURE;
 	}
+
+	/*wait a little bit*/
 	sleep(30);
 
 	(void)close(fd);

@@ -38,6 +38,8 @@ lseek only records the current fole offset in the kernel. Neither actual IO is o
 ssize_t read(int fd, void* buf, size_t nbuf);
 Returns number of bytes readm , 0 if end of fike and -1 for an error.
 Most file systems has read ahead to improve the read performance. 
+
+# dup, dup2
 # Week 02 - Segment 1 : File Descriptors
 File descriptor or File handle is a small, non-negative int which identifies a file to the kernel.
 
@@ -88,6 +90,11 @@ lseek : you can seek to a ngative, offset . Think rewinding a tape.
 | openat| -args- | Supported by some linux envs|   
 |close|file descriptor|closes a file descriptor|
 |lseek|fd, offset, whence| current file offset of an open file can be moved using lseek , pipe, FIFO  and sockets we cannot use lseek adn will retuen -1. |
+|pread|fd, *buf, nbytes, offset| Atomically reads from the current file offset + offset, current file offset is not updated|
+|pwrite|fd, *buf, nbytes, offset|Atomically reads from the current file offset + offset, current file offset is not updated|
+|dup|fd|Duplicates a file descriptor}| new fd is gurateed to the lowest fd|
+|dup2|fd1, fd2| We specify the new fd value, if fd is already open , it is closed and reopened|
+
 
 
 

@@ -1,3 +1,8 @@
+# Sum problems. 
+These are two sum, three sum variations.
+## 1. Two Sum
+[1. Two Sum](https://leetcode.com/problems/two-sum/)
+Use a hashmap to solve this. Since we have to retun the indices hence 
 # 1207. Unique Number of Occurrences
 [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 

@@ -3,6 +3,28 @@ These are two sum, three sum variations.
 ## 1. Two Sum
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 Use a hashmap to solve this. Since we have to retun the indices hence 
+
+# Buy-Sell stocks
+## 121. Best Time to Buy and Sell Stock
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- Constraints are that the price is positive. 
+- There is only one transaction.
+
+'''
+prices = [7,1,5,3,6,4] 
+            L     R 
+'''
+- Keep a left pointer and right pointer. 
+- Each interation of profile is less than zero , reset left to current right.
+- If profit is postive, update max profit. 
+
+Now lets say loss is allowed, some how the price went negative.
+
+'''
+prices = [7,1,-5,3,6,4] 
+'''
+
+
 # 1207. Unique Number of Occurrences
 [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 

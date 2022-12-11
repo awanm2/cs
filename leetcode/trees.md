@@ -24,6 +24,14 @@ This is a good problem.
 3. Now sitting at parent, think what we need to return. We should return parent's value + max (leftSum, rightSum)
 4. Think about negative nodes . Do we want a path sum with a negative, value. No we can ignore that pathsum. SO we update our pathSum with max(pathSum, 0).
 
+Time Complexity is O(n) since we are visiting all the nodes. Space is O(h) , h is height of tree, for balanced tree it will be lg n.
+
+![image](https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_001.png)
+![image](https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_002.png)
+![image](https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_003.png)
+
+
+
 ## 1026. Maximum Difference Between Node and Ancestor 
 
 [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
@@ -35,10 +43,6 @@ The idea here is as following
 3. Update currentMax and current Min from 
 4. Using the node value, we can keep two variables, currentMax and currentMin.
 5. We can calculate recursively on left and right side of the tree.
-
-Time Complexity is O(n) since we are visiting all the nodes. Space is O(h) , h is height of tree, for balanced tree it will be lg n.
-
-![image](https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_001.png)
 
 ## 1339. Maximum Product of Splitted Binary Tree
 [1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)

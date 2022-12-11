@@ -36,6 +36,10 @@ The idea here is as following
 4. Using the node value, we can keep two variables, currentMax and currentMin.
 5. We can calculate recursively on left and right side of the tree.
 
+Time Complexity is O(n) since we are visiting all the nodes. Space is O(h) , h is height of tree, for balanced tree it will be lg n.
+
+``![image][https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_001.png]``
+
 ## 1339. Maximum Product of Splitted Binary Tree
 [1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
 

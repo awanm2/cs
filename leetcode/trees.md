@@ -14,7 +14,17 @@ The left and right subtree each must also be a binary search tree.
 
 # Revisit/Resolve  these
 
-## 1026. Maximum Difference Between Node and Ancestor
+## 124. Binary Tree Maximum Path Sum :steam_locomotive:
+
+[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
+This is a good problem. 
+1. Go to a leaf node and think how would you calculate max here. 
+2. Now go above to the parent, here think if left node, parent and right node form a path with max sum. compare it with current max.
+3. Now sitting at parent, think what we need to return. We should return parent's value + max (leftSum, rightSum)
+4. Think about negative nodes . Do we want a path sum with a negative, value. No we can ignore that pathsum. SO we update our pathSum with max(pathSum, 0).
+
+## 1026. Maximum Difference Between Node and Ancestor 
 
 [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 If we can keep track of maximum and mimimum value then we can keep track of the 

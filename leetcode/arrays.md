@@ -8,22 +8,28 @@ Use a hashmap to solve this. Since we have to retun the indices hence
 ## 121. Best Time to Buy and Sell Stock
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - Constraints are that the price is positive. 
-- There is only one transaction.
-
+- There is only one transaction. So we are looking maximum difference between two values.
 '''
 prices = [7,1,5,3,6,4] 
             L     R 
 '''
+
+- Lets make constraints a bit loose and say we allow negative values in the array of the prices. Now what we can do,
+
 - Keep a left pointer and right pointer. 
 - Each interation of profile is less than zero , reset left to current right.
 - If profit is postive, update max profit. 
 
-Now lets say loss is allowed, some how the price went negative.
+Now lets say loss is allowed, so we have a negative number , some how the price went negative.
 
 '''
 prices = [7,1,-5,3,6,4] 
 '''
 
+So a better way is to do a bit differently 
+
+1. The first value is minPrice.
+2. Then on each iteration of loop if  we have new minPrice, update it else calculate the new maxProfit
 
 # 1207. Unique Number of Occurrences
 [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)

@@ -38,7 +38,7 @@ The idea here is as following
 
 Time Complexity is O(n) since we are visiting all the nodes. Space is O(h) , h is height of tree, for balanced tree it will be lg n.
 
-``![image][https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_001.png]``
+![image][https://github.com/awanm2/cs/blob/main/leetcode/img/lc124/maxPathSum_001.png]
 
 ## 1339. Maximum Product of Splitted Binary Tree
 [1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)

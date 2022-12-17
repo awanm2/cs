@@ -37,6 +37,15 @@ So a better way is to do a bit differently
 1. Count for occurrences using a map.
 2. Use a set to check for uniquness.
 
+# 2500. Minimum Average Difference
+
+[2500. Minimum Average Difference](https://leetcode.com/problems/delete-greatest-value-in-each-row/)
+
+Here is the idea. 
+
+1. Sort the grid row by row. Each row should be sorted.
+2. Go column by column and find max value of each column. 
+3. Add the max value 
 # 2256. Minimum Average Difference
 [2256. Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)
 This is a good problem to solve with pre-fix sum.

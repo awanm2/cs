@@ -4,6 +4,25 @@ These are two sum, three sum variations.
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 Use a hashmap to solve this. Since we have to retun the indices hence 
 
+## 15. 3Sum
+[15. 3Sum](https://leetcode.com/problems/3sum/)
+1. Sort the array.
+2. The use three vars i, j, k. 
+3. Take i as first one and then from j to k run two sum.
+4. Take care of duplicates, skip over duplicates on i and j iteration.
+
+## 16. 3Sum Closest
+[16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+1. Similar to 3Sum problem.
+2. For closest sum use abs to calculate the distance from the sum.
+
+## 167. Two Sum II - Input Array Is Sorted
+[167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+1. Keep two pointers. start and end. 
+2. if nums[start] + nums[end] == target , yay
+3. if nums[start] + nums[end] > target , decrement end
+4. if nums[start] + nums[end] <> target , increment start
+
 # Buy-Sell stocks
 ## 121. Best Time to Buy and Sell Stock
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)

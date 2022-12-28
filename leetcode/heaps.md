@@ -23,5 +23,5 @@ Time complexity is O( (n+k) log n).
 
 [2208. Minimum Operations to Halve Array Sum] https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
 * Use a priority queue. However the *tricky* part is to recognize that we are halving the sum so 5/2 is 2.5 so the priority queue should be a double type. 
-* the other part is to know when to stop stop counting.
+* The other part is to know when to stop counting.
 

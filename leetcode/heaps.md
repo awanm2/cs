@@ -1,7 +1,7 @@
 # Heaps Notes
 
 # C++ priority_queue
-[C++ priority queue] (https://en.cppreference.com/w/cpp/container/priority_queue) provides constant time lookup for the largest (by default) element. 
+[C++ priority queue](https://en.cppreference.com/w/cpp/container/priority_queue) provides constant time lookup for the largest (by default) element. 
 
 |Operation| Complexity|
 |---------|-----------|

@@ -11,7 +11,7 @@
 
 # 1962. Remove Stones to Minimize the Total
 [1962. Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)
-Use a priority queue, pop largest element, make it half, put it back on to priority queue and do it K times. Then sum the array for the result.
+Use a priority queue, pop largest element, make it half, put it back on to priority queue and do it K times. Then sum all the elements in priority queue for the result.
 Solved in C++. 
 
 Space complexity is O(n) because we are building the heap.

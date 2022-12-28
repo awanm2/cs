@@ -14,4 +14,7 @@
 Use a priority queue, pop largest element, make it half, put it back on to priority queue and do it K times. Then sum the array for the result.
 Solved in C++. 
 
+Space complexity is O(n) because we are building the heap.
+Time complexity is O( (n+k) log n).
+
 :pushpin: : sovle in Python :snake:

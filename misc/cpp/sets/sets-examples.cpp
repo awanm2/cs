@@ -4,6 +4,34 @@
 
 using namespace std;
 
+void addStrToSet(string str, set<char>& st)
+{
+	size_t i = 0;
+	for(i=0; i<str.length();i++)
+	{
+		st.insert(str[i]);
+	}
+}
+
+void set_strings(void)
+{
+   string str1 = "abab";
+   cout << str1 << endl;
+   
+   set<char> setStr;
+   set<char>::iterator it;;
+   
+   addStrToSet("abab", setStr);
+
+   it = setStr.begin();
+   while(it != setStr.end())
+   {
+       cout << *it << endl;
+       it++;       
+   }
+    
+}
+
 int main()
 {
     pair<set<int>::iterator, bool> ret;
@@ -35,6 +63,8 @@ int main()
     {
         cout << *it << endl;
     }
+    
+    set_strings();
 
     return 0;
 }

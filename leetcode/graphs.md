@@ -26,7 +26,7 @@ This is a DAG problem. Look at following picture.
 ![A path from first node to last](https://github.com/awanm2/cs/blob/main/leetcode/img/lc55/lc_55_a.png)
 ![A path doesnot exist from first node to last](https://github.com/awanm2/cs/blob/main/leetcode/img/lc55/lc_55_b.png)
 
-. What is the farthest distance we can go from current index. 
-. On each node calculate the max index we can reach. Update the max index if a new calculated node we can reach is greater then max index i.e. i + nums[i] > maxIndex.
-. At any point, if we find i less than maxIndex, that means we cannot rach the last node.
+* What is the farthest distance we can go from current index. 
+* On each node calculate the max index we can reach. Update the max index if a new calculated node we can reach is greater then max index i.e. i + nums[i] > maxIndex.
+* At any point, if we find i less than maxIndex, that means we cannot rach the last node.
   

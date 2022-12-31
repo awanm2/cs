@@ -1,5 +1,11 @@
-# Sovled with Sets 
+# 451. Sort Characters By Frequency
+[451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+1. Build a map of chars and there count.
+2. Build a list of pairs (count, char)
+3. Then sort the list of pairs. 
+4. Then build the string. 
 
+# Sovled with Sets 
 ## 1684. Count the Number of Consistent Strings
 [1684. Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)
 Use set in C++.

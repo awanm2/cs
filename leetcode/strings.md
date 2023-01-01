@@ -9,7 +9,7 @@ These can be solved using two hash maps.
 [290. Word Pattern](https://leetcode.com/problems/word-pattern/)
 Note this is a bijection here. Solved in python using two hash maps.
 
-TODO :pushpin: : sovle in c: :heavy_plus_sign: :heavy_plus_sign:	
+TODO :pushpin: : sovle in :c: :heavy_plus_sign: :heavy_plus_sign:	
 
 
 # 451. Sort Characters By Frequency

@@ -1,3 +1,17 @@
+
+# Bijection and Isomorphic Strings
+These can be solved using two hash maps.
+
+## 205. Isomorphic Strings
+[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) This is a bjection here.
+
+## 290. Word Pattern
+[290. Word Pattern](https://leetcode.com/problems/word-pattern/)
+Note this is a bijection here. Solved in python using two hash maps.
+
+TODO :pushpin: : sovle in c: :heavy_plus_sign: :heavy_plus_sign:	
+
+
 # 451. Sort Characters By Frequency
 [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 1. Build a map of chars and there count.

@@ -85,3 +85,29 @@ This is a good problem to solve with pre-fix sum.
 [2279. Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)
 1. First thought is to build a pair data structure of paris (capacity, rocks), sort based on rocks and then solve greedily with for loop.
 2. Second thought, a better one is to make a list of spaces left in the bags data structures and then solve greedily. This uses less space.
+
+
+# Math,  Logic, Puzzles
+
+## 2244. Minimum Rounds to Complete All Tasks
+[2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
+Lets use 8 as an example. We can do task 8 in 4 rounds by grouping 2 tasks. But we can also we do 6 + 2 = 8 which implies we can do this task in two rounds.
+
+* There are three cases - when frequency is 1 then we can return false or -1/
+* When frequency is multiple of 3 we are good. 
+* When frequency mod 3 is 1 or 2 then this is interesting case.
+Look at image below
+
+![image](https://github.com/awanm2/cs/blob/main/leetcode/img/lc2244/lc_2244_a.png)
+
+# Easy Problems
+These are straight forward, generally one for loop O(n) kind of problems.
+
+## 724. Find Pivot Index
+[724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
+Sum the array once and then use it to solve the problem. This is same as [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) 
+
+## 1480. Running Sum of 1d Array
+[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) Super simple problem.
+
+

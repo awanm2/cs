@@ -27,3 +27,11 @@ Use set in C++.
 ## 2506. Count Pairs Of Similar Strings
 [2506. Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/)
 Use sets in C++ to solve this.
+
+# Easy Problems
+These are straight forward, generally one for loop O(n) kind of problems.
+
+## 520. Detect Capital
+[520. Detect Capital](https://leetcode.com/problems/detect-capital/) A good problem with edge cases to think about. Use isupper in C or c.isupper in Pyhton.
+
+ 

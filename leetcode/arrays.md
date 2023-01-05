@@ -89,7 +89,7 @@ This is a good problem to solve with pre-fix sum.
 
 # Math,  Logic, Puzzles
 
-## 2244. Minimum Rounds to Complete All Tasks
+## 2244. Minimum Rounds to Complete All Tasks :nut_and_bolt:
 [2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
 Lets use 8 as an example. We can do task 8 in 4 rounds by grouping 2 tasks. But we can also we do 6 + 2 = 8 which implies we can do this task in two rounds.
 

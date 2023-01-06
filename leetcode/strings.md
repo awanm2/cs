@@ -34,4 +34,7 @@ These are straight forward, generally one for loop O(n) kind of problems.
 ## 520. Detect Capital
 [520. Detect Capital](https://leetcode.com/problems/detect-capital/) A good problem with edge cases to think about. Use isupper in C or c.isupper in Pyhton.
 
- 
+## 944. Delete Columns to Make Sorted
+
+[944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) Iterate over the arrays column by column.
+

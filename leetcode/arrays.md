@@ -86,6 +86,12 @@ This is a good problem to solve with pre-fix sum.
 1. First thought is to build a pair data structure of paris (capacity, rocks), sort based on rocks and then solve greedily with for loop.
 2. Second thought, a better one is to make a list of spaces left in the bags data structures and then solve greedily. This uses less space.
 
+# Greedy 
+
+## 1833. Maximum Ice Cream Bars
+[1833. Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) 
+1. Sort the list
+2. Then solve it greedily
 
 # Math,  Logic, Puzzles
 

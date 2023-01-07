@@ -87,6 +87,10 @@ This is a good problem to solve with pre-fix sum.
 2. Second thought, a better one is to make a list of spaces left in the bags data structures and then solve greedily. This uses less space.
 
 # Greedy 
+## 134. Gas Station :dragon:
+[134. Gas Station](https://leetcode.com/problems/gas-station/)
+This one is tricky, come back and write some notes here.
+
 
 ## 1833. Maximum Ice Cream Bars
 [1833. Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) 
